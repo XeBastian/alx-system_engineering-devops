@@ -1,2 +1,2 @@
 #!/bin/bash
-chown betty:staff *
+sudo find ./ -exec chown vincent:staff {} +
