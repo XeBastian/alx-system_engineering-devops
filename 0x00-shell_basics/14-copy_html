@@ -1,7 +1,2 @@
 #!/bin/bash
-
-current_dir=$(pwd)
-parent_dir=$(dirname "$current_dir")
-cp -u "$current_dir"/*.html "$parent_dir"
-
-
+cp -u *.html ..
